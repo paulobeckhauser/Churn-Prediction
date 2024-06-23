@@ -1,0 +1,13 @@
+[ 2024-06-23 15:16:23,341 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.3.6:5000
+[ 2024-06-23 15:16:23,341 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-06-23 15:16:23,341 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2024-06-23 15:16:23,631 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-23 15:16:23,631 ] 97 werkzeug - INFO -  * Debugger PIN: 873-241-755
+[ 2024-06-23 15:16:24,946 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2024 15:16:24] "GET / HTTP/1.1" 200 -
+[ 2024-06-23 15:16:26,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2024 15:16:26] "GET /predictdata HTTP/1.1" 200 -
+[ 2024-06-23 15:18:13,945 ] 67 root - INFO - Load model and preprocessor objects.
+[ 2024-06-23 15:18:13,949 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2024 15:18:13] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-06-23 15:18:13,954 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2024 15:18:13] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
