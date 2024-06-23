@@ -1,8 +1,6 @@
 '''
 Importing the libraries.
 '''
-
-
 # Web app.
 from flask import Flask, request, render_template
 
