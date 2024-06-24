@@ -3,3 +3,12 @@
 
 # Environments
 venv/
+
+logs/
+
+__pycache__/
+
+
+Credit_Card_Churn_Prediction.egg-info/
+
+*.pyc
