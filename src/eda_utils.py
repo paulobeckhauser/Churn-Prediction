@@ -21,11 +21,11 @@ import sys
 from warnings import filterwarnings
 filterwarnings('ignore')
 
-palette=sns.color_palette(['#023047', '#e85d04', '#0077b6', '#ff8200', '#0096c7', '#ff9c33'])
+palette=sns.color_palette(['#023047', '#e85d04', '#0077b6', '#ff8200', '#0096c7', '#ff9c33', '#add8e6'])
 
 def analysis_plots(data, features, histplot=True, barplot=False, mean=None, text_y=0.5,    
                    outliers=False, boxplot=False, boxplot_x=None, kde=False, hue=None, 
-                   nominal=False, color='#023047', figsize=(24, 12)):
+                   nominal=False, color='#add8e6', figsize=(24, 12)):
     '''
     Generate plots for univariate and bivariate analysis.
 

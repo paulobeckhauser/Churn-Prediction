@@ -928,7 +928,7 @@ def plot_probability_distributions(y_true, probas):
         ax.grid(False)
 
         
-        handles = [plt.Rectangle((0,0), 0.1, 0.1, fc='#e85d04', edgecolor = 'none'),
+        handles = [plt.Rectangle((0,0), 0.1, 0.1, fc='#8B0000', edgecolor = 'none'),
                 plt.Rectangle((0,0), 0.1, 0.1, fc='#023047', edgecolor = 'none')]
         labels = ['Churn', 'Not churn']
             
